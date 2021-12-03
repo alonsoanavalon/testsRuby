@@ -1,0 +1,6 @@
+<div>
+    <h1>Nombre: <%= @producto.name %></h1>
+    <h3>Description: <%= @producto.description%></h3>
+    <h4>Cantidad: <%= @producto.cantidad %></h4>
+    <%=button_to "Delete", @producto, method: :delete%>
+</div>
